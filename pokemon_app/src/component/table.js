@@ -1,6 +1,6 @@
 import React, { useCallback, useContext, useEffect } from 'react';
 import { useTable } from 'react-table'
-import {COLUMNS} from './columns'
+import { COLUMNS } from './columns'
 import { useMemo } from 'react';
 import { Context } from './HighOrderComponent';
 import { getPokemon } from '../service'
